@@ -1,30 +1,7 @@
-# Uniswap Interface
+# uniswap-v2-sepolia
 
-[![Tests](https://github.com/Uniswap/uniswap-interface/workflows/Tests/badge.svg)](https://github.com/Uniswap/uniswap-interface/actions?query=workflow%3ATests)
-[![Styled With Prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)](https://prettier.io/)
+Uniswap V2 interface for learning and testing on the Sepolia Testnet, without using Mainnet accounts
 
-An open source interface for Uniswap -- a protocol for decentralized exchange of Ethereum tokens.
-
-- Website: [uniswap.org](https://uniswap.org/)
-- Interface: [app.uniswap.org](https://app.uniswap.org)
-- Docs: [uniswap.org/docs/](https://uniswap.org/docs/)
-- Twitter: [@UniswapProtocol](https://twitter.com/UniswapProtocol)
-- Reddit: [/r/Uniswap](https://www.reddit.com/r/Uniswap/)
-- Email: [contact@uniswap.org](mailto:contact@uniswap.org)
-- Discord: [Uniswap](https://discord.gg/Y7TF6QA)
-- Whitepaper: [Link](https://hackmd.io/C-DvwDSfSxuh-Gd4WKE_ig)
-
-## Accessing the Uniswap Interface
-
-To access the Uniswap Interface, use an IPFS gateway link from the
-[latest release](https://github.com/Uniswap/uniswap-interface/releases/latest), 
-or visit [app.uniswap.org](https://app.uniswap.org).
-
-## Listing a token
-
-Please see the
-[@uniswap/default-token-list](https://github.com/uniswap/default-token-list) 
-repository.
 
 ## Development
 
@@ -48,7 +25,10 @@ To have the interface default to a different network when a wallet is not connec
 2. Change `REACT_APP_NETWORK_ID` to `"{YOUR_NETWORK_ID}"`
 3. Change `REACT_APP_NETWORK_URL` to e.g. `"https://{YOUR_NETWORK_ID}.infura.io/v3/{YOUR_INFURA_KEY}"` 
 
-Note that the interface only works on testnets where both 
-[Uniswap V2](https://uniswap.org/docs/v2/smart-contracts/factory/) and 
-[multicall](https://github.com/makerdao/multicall) are deployed.
-The interface will not work on other networks.
+
+## Example address
+ERC-20 tokenA    0x2603dFc9ac0Dd82c45B2608E74aFB38B2E0C9799
+ERC-20 tokenB    0x1eE528DA0BC6CC2c2d3Eb24d58AB6b5131a89B28
+Uniswap-Factory  0xC3B62B2Bd3480ed936c558445e269faE897839Df
+Uniswap-Router   0x1675325a59017823c9417DE46EF55Bbe4ca3136c
+WETH             0xe35547E9b331E80748271C3682ca9aFFc18B919e
