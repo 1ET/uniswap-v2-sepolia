@@ -1,6 +1,7 @@
 # uniswap-v2-sepolia
 
 Uniswap V2 interface for learning and testing on the Sepolia Testnet, without using Mainnet accounts
+This project is based on https://github.com/Uniswap/interface
 
 
 ## Development
